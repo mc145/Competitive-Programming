@@ -69,6 +69,12 @@ sort(arr, arr + diff);
 */
 
 
+for(int i = 2; i<=1000; i++){
+    int a = 6*i*i + 1; 
+    if(floor(sqrt(a)) == sqrt(a)){
+        cout << i << nl; 
+    }
+}
 
 }
 

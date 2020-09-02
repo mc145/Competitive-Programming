@@ -128,13 +128,19 @@ while(t--){
            // cout << "Case 1" << nl;
         }
         else if(xcoord[i] == xcoord[i-1] || xcoord[i] + w == xcoord[i-1] + w){
-
+                x+=(max((ll) 0, height[i] - height[i-1])); 
         }
         else if(xcoord[i] + w == xcoord[i-1]){
-
+                x+=w; 
+                x+=height[i]; 
+                x+=w; 
+                x+=abs(height[i] - height[i-1]);
         }
         else if(xcoord[i] == xcoord[i-1] + w){
-
+                x+=w; 
+                x+=height[i]; 
+                x+=w; 
+                x+=abs(height[i] - height[i-1]); 
         }
         
         else{
