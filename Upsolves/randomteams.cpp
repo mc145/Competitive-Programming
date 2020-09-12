@@ -51,7 +51,9 @@ bool checkElement(vector<int> arr, int k){
 }
 
 
-
+long long choose2(long long n){
+    return (n*(n-1))/2; 
+}
 
 
 int main(){
@@ -67,6 +69,30 @@ int diff = sizeof(arr)/sizeof(arr[0]);
 sort(arr, arr + diff); 
 
 */
+
+
+long long n,m; 
+
+scanf("%lld%lld", &n, &m); 
+long long nc; 
+nc = n; 
+
+n = n - (m-1); 
+
+
+long long maxs = (n*(n-1))/2; 
+
+long long per = nc/m; 
+
+
+long long mins; 
+
+mins = choose2(per) * (m - (nc % m));
+
+mins = mins + choose2(per+1) * (nc%m);
+
+cout << mins << " " << maxs; 
+
 
 
 
