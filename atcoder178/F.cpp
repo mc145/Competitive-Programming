@@ -10,6 +10,15 @@ using namespace std;
 typedef long long ll; 
 typedef long double ld; 
 
+int ceil(int a, int m){
+    // division of a and m
+    if(a % m == 0){
+        return a/m; 
+    }
+    else{
+        return a/m + 1; 
+    }
+}
 
 char nl = '\n'; 
 char bl = ' ';
