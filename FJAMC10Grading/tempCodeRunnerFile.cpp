@@ -1,2 +1,0 @@
-
-        int user = ins[i]; 

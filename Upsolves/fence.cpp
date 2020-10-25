@@ -20,28 +20,43 @@ int ceil(int a, int m){
     }
 }
 
-vector<int> sort(vector<int> arr){
-    sort(arr.begin(), arr.end()); 
-    return arr; 
-}
-
-
-
-
 
 int main(){
 
+ios_base::sync_with_stdio(false);
+cin.tie(NULL); 
+
 char nl = '\n'; 
 char bl = ' ';
-/*
-For array arr use the following preamble to sort
-int diff = sizeof(arr)/sizeof(arr[0]); 
-sort(arr, arr + diff); 
-
-*/
 
 
-int a,b,c; 
+
+int t; 
+cin >> t; 
+while(t--){
+long long a,b,c; 
 cin >> a >> b >> c; 
-cout << max(max(max(max(a*b*c, a+b+c), (a+b)*c), (b+c)*a), 0);
+
+long long corner; 
+
+corner = a + b - 1; 
+
+cout << corner + c - 1 << nl; 
+} 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
