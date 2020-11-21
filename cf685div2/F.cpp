@@ -1,4 +1,11 @@
-#include<bits/stdc++.h> 
+#include<iostream>
+#include<vector>
+#include<string>
+#include<math.h> 
+#include<algorithm> 
+#include<stdio.h> 
+#include<sstream>
+#include<fstream>  
 using namespace std; 
 typedef long long ll; 
 typedef long double ld; 
