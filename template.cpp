@@ -15,7 +15,6 @@ cin.tie(NULL);
  int t; 
  cin >> t; 
  while(t--){
-     
  }
 
 

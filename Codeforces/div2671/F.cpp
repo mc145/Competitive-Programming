@@ -22,7 +22,9 @@ cin.tie(NULL);
  int t; 
  cin >> t; 
  while(t--){
-     
+	int a = 1; 
+	string b = a; 
+
  }
 
 

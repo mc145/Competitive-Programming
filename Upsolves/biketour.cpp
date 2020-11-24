@@ -50,7 +50,7 @@ int t;
          ins.push_back(a);
      }
      int count = 0; 
-     for(int i = 1; i<ins.size()-1; i++){
+     for(int i = 1; i<(int) ins.size()-1; i++){
          if(ins[i] > ins[i-1] && ins[i] > ins[i+1]){
              count++; 
          }

@@ -37,4 +37,8 @@ int diff = sizeof(arr)/sizeof(arr[0]);
 sort(arr, arr + diff); 
 
 */
+
+int n = 1; 
+string s = n; 
+
 }
