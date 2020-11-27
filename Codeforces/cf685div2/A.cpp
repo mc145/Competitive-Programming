@@ -28,8 +28,8 @@ cin >> t;
 while(t--){
 
 	
-	int n; 
-	cin >> n; 
+	int n;
+ 	cin >> n; 
 
 if(n == 1){
 	cout << 0 << nl; 

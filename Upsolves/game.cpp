@@ -13,14 +13,11 @@ cin.tie(NULL);
 char nl = '\n'; 
 char bl = ' ';
 
-int t; 
-cin >> t; 
 
-for(int case_num = 1; case_num <= t; case_num++){
+int64_t n; 
+cin >> n; 
 
-
-    // cout << "Case #" << case_num << ": "; 
-}
+cout << (n%2 == 1? 1: 2); 
 
 
 }

@@ -13,14 +13,17 @@ cin.tie(NULL);
 char nl = '\n'; 
 char bl = ' ';
 
-int t; 
-cin >> t; 
 
-for(int case_num = 1; case_num <= t; case_num++){
+long long k,a,b; 
 
+scanf("%lld%lld%lld", &k, &a, &b); 
 
-    // cout << "Case #" << case_num << ": "; 
-}
+if(( a!=0 && a % k == 0) || (b!= 0 && b % k == 0) || (a >= k && b>=k)){
+	cout << a/k + b/k; 
+} 
+else{
+	cout << -1;
+} 
 
 
 }
